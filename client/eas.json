@@ -7,14 +7,12 @@
       "android": {
         "buildType": "apk"
       },
-      "distribution": "internal",
-      "pnpm": "9.15.4"
+      "distribution": "internal"
     },
     "production": {
       "android": {
         "buildType": "apk"
-      },
-      "pnpm": "9.15.4"
+      }
     }
   },
   "submit": {
