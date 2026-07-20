@@ -4,50 +4,18 @@
     "slug": "myapp",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.png",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      },
       "package": "com.hitts.wardrobe"
     },
     "web": {
       "bundler": "metro",
-      "output": "single",
-      "favicon": "./assets/images/favicon.png"
+      "output": "single"
     },
-    "plugins": [
-      "expo-router",
-      [
-        "expo-splash-screen",
-        {
-          "image": "./assets/images/splash-icon.png",
-          "imageWidth": 200,
-          "resizeMode": "contain",
-          "backgroundColor": "#ffffff"
-        }
-      ],
-      [
-        "expo-image-picker",
-        {
-          "photosPermission": "允许衣柜管家App访问您的相册",
-          "cameraPermission": "允许衣柜管家App使用您的相机"
-        }
-      ],
-      [
-        "expo-camera",
-        {
-          "cameraPermission": "衣柜管家App需要访问相机以拍摄照片",
-          "recordAudioAndroid": true
-        }
-      ]
-    ],
     "extra": {
       "eas": {
         "projectId": "f9237689-d7b4-400f-9405-0dd3311c8cdf"
