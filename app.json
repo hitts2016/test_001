@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "衣柜管家",
+    "slug": "myapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.hitts.wardrobe"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f9237689-d7b4-400f-9405-0dd3311c8cdf"
+      }
+    }
+  }
+}
